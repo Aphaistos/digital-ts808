@@ -40,7 +40,7 @@ En passant en notation complexe, le premier bloc (Pré-filtrage + Gain) se compo
 
 $$\underline{Z}_1 = R_1 + \frac{1}{jC_1\omega}$$
 
-En appliquant le théorème de Millman au nœud $V_-$ ou en utilisant la formule classique du diviseur de tension, on obtient la fonction de transfert harmonique brute de l'étage de pré-saturation $\underline{H}_1(j\omega)$ :
+En utilisant la formule classique du diviseur de tension, on obtient la fonction de transfert harmonique brute de l'étage de pré-saturation $\underline{H}_1(j\omega)$ :
 
 $$\underline{H}_1(j\omega) = \frac{\underline{V}_s}{\underline{V}_e} = 1 + \frac{R_f}{\underline{Z}_1} = 1 + \frac{R_f}{R_1 + \frac{1}{jC_1\omega}}$$
 
